@@ -21,10 +21,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return this.name;
+        return this.name + ", has a friend called " + this.pet.getName() + " (" + this.pet.getBreed() + ")";
     }
 
-    public int getWeight() {
-        return weight;
-    }
 }
